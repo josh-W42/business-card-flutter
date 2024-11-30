@@ -1,16 +1,11 @@
 # micard
 
-A business card app built with flutter
+## Description:
 
-## Getting Started
+A personal business card.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this app the goals were to:
+- Understand how to build UIs with various widgets like Row, Column.
+- Become familiar with how to import assets, like fonts, and use them.
+- Become more familiar with flutter / dart documentation.
+- Understand how to utilize flutter's hot reload feature to rapidly prototype changes.

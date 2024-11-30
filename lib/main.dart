@@ -19,11 +19,71 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
             child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            CircleAvatar(
+            const CircleAvatar(
               radius: 50,
-              backgroundImage: null,
-            )
+              backgroundImage: AssetImage("images/me.jpg"),
+            ),
+            const Text(
+              "Joshua Wilson",
+              style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w900,
+                  fontFamily: 'CedarvilleCursive'),
+            ),
+            const Text(
+              "Software Engineer",
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.white,
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+              padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 20),
+              height: 60,
+              color: Colors.white,
+              child: Row(children: <Widget>[
+                const Icon(
+                  Icons.phone,
+                  size: 30,
+                ),
+                Container(
+                  width: 30,
+                ),
+                const Text(
+                  "+1 123 456 7890",
+                  style: TextStyle(
+                      color: Colors.teal,
+                      fontWeight: FontWeight.w900,
+                      fontSize: 16),
+                )
+              ]),
+            ),
+            Container(
+              margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+              padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 20),
+              height: 60,
+              color: Colors.white,
+              child: Row(children: <Widget>[
+                const Icon(
+                  Icons.email,
+                  size: 30,
+                ),
+                Container(
+                  width: 30,
+                ),
+                const Text(
+                  "example@gmail.com",
+                  style: TextStyle(
+                      color: Colors.teal,
+                      fontWeight: FontWeight.w900,
+                      fontSize: 16),
+                )
+              ]),
+            ),
           ],
         )),
       ),
